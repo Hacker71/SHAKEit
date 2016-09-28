@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent i = new Intent(MainActivity.this, Location.class);
+                Intent i = new Intent(getApplicationContext(), Preparation.class);
                 startActivity(i);
 
 
@@ -65,6 +65,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 v.startAnimation(animAlpha);
                 startActivity(new Intent(getApplicationContext(),Preparation.class));
+                //updated
             }
         });
 
