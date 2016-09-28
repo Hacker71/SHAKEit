@@ -67,6 +67,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(getApplicationContext(),Preparation.class));
                 //updated
                 //edited from website
+                //again edited from IDE
             }
         });
 
