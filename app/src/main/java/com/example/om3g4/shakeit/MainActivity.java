@@ -52,15 +52,15 @@ public class MainActivity extends AppCompatActivity {
         final Animation animAlpha = AnimationUtils.loadAnimation(this, R.anim.anim_alpha);
 
 
-        Button btnAlpha = (Button) findViewById(R.id.button);
-        Button btnAlpha1 = (Button) findViewById(R.id.button2);
-        Button btnAlpha2 = (Button) findViewById(R.id.button3);
+        Button prepBtn = (Button) findViewById(R.id.button);
+        Button readyBtn = (Button) findViewById(R.id.button2);
+        Button mapBtn = (Button) findViewById(R.id.button3);
         Button btnAlpha3 = (Button) findViewById(R.id.button4);
         Button btnAlpha4 = (Button) findViewById(R.id.button5);
         Button btnAlpha5 = (Button) findViewById(R.id.button6);
         Button btnAlpha6 = (Button) findViewById(R.id.button7);
 
-        btnAlpha.setOnClickListener(new View.OnClickListener() {
+        prepBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 v.startAnimation(animAlpha);
@@ -71,14 +71,14 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
-        btnAlpha1.setOnClickListener(new View.OnClickListener() {
+        readyBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 v.startAnimation(animAlpha);
             }
         });
 
-        btnAlpha2.setOnClickListener(new View.OnClickListener() {
+        mapBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 v.startAnimation(animAlpha);
