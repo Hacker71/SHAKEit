@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         Button preparationBtn = (Button) findViewById(R.id.button);
-        Button btnAlpha1 = (Button) findViewById(R.id.button2);
+        Button readyBtn = (Button) findViewById(R.id.button2);
         Button btnAlpha2 = (Button) findViewById(R.id.button3);
         Button btnAlpha3 = (Button) findViewById(R.id.button4);
         Button btnAlpha4 = (Button) findViewById(R.id.button5);
@@ -66,12 +66,12 @@ public class MainActivity extends AppCompatActivity {
                 v.startAnimation(animAlpha);
                 startActivity(new Intent(getApplicationContext(),Preparation.class));
                 //edited by partho
-                
+
             }
         });
 
 
-        btnAlpha1.setOnClickListener(new View.OnClickListener() {
+        readyBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 v.startAnimation(animAlpha);
