@@ -22,7 +22,7 @@ import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.TextView;
 
-
+/*yoyo*/
 public class MainActivity extends AppCompatActivity {
     ActionBarDrawerToggle toggle;
     public Button button4;
