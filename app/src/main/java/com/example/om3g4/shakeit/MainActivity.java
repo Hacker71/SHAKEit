@@ -66,6 +66,7 @@ public class MainActivity extends AppCompatActivity {
                 v.startAnimation(animAlpha);
                 startActivity(new Intent(getApplicationContext(),Preparation.class));
                 //edited by partho
+                //edited by priyo
             }
         });
 
