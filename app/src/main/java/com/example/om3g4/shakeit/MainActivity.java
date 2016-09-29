@@ -55,9 +55,9 @@ public class MainActivity extends AppCompatActivity {
         Button btnAlpha = (Button) findViewById(R.id.button);
         Button btnAlpha1 = (Button) findViewById(R.id.button2);
         Button btnAlpha2 = (Button) findViewById(R.id.button3);
-        Button locationBtn = (Button) findViewById(R.id.button4);
-        Button emergencyBtn = (Button) findViewById(R.id.button5);
-        Button alertBtn = (Button) findViewById(R.id.button6);
+        Button btnAlpha3 = (Button) findViewById(R.id.button4);
+        Button btnAlpha4 = (Button) findViewById(R.id.button5);
+        Button btnAlpha5 = (Button) findViewById(R.id.button6);
         Button btnAlpha6 = (Button) findViewById(R.id.button7);
 
         btnAlpha.setOnClickListener(new View.OnClickListener() {
@@ -85,14 +85,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        locationBtn.setOnClickListener(new View.OnClickListener() {
+        btnAlpha3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 v.startAnimation(animAlpha);
             }
         });
 
-        emergencyBtn.setOnClickListener(new View.OnClickListener() {
+        btnAlpha4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 v.startAnimation(animAlpha);
