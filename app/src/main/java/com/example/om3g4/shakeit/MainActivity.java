@@ -65,9 +65,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 v.startAnimation(animAlpha);
                 startActivity(new Intent(getApplicationContext(),Preparation.class));
-                //updated
-                //edited from website
-                //again edited from IDE
+                //edited by partho
             }
         });
 
