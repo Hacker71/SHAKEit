@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
         final Animation animAlpha = AnimationUtils.loadAnimation(this, R.anim.anim_alpha);
 
 
-        Button btnAlpha = (Button) findViewById(R.id.button);
+        Button preparationBtn = (Button) findViewById(R.id.button);
         Button btnAlpha1 = (Button) findViewById(R.id.button2);
         Button btnAlpha2 = (Button) findViewById(R.id.button3);
         Button btnAlpha3 = (Button) findViewById(R.id.button4);
@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
         Button btnAlpha5 = (Button) findViewById(R.id.button6);
         Button btnAlpha6 = (Button) findViewById(R.id.button7);
 
-        btnAlpha.setOnClickListener(new View.OnClickListener() {
+        preparationBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 v.startAnimation(animAlpha);
