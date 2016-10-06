@@ -6,9 +6,10 @@
         android:maxSdkVersion="24"
         android:minSdkVersion="8" />
 
-    <android:uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
-    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SEND_SMS"></uses-permission>
 
     <application
         android:allowBackup="true"
@@ -33,10 +34,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Preparation"
-            android:label="@string/title_activity_preparation"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
             android:name=".Tools"
             android:label="@string/title_activity_tools"
             android:theme="@style/AppTheme.NoActionBar" />
@@ -59,7 +56,11 @@
         <activity
             android:name=".AmiSafe"
             android:label="@string/title_activity_ami_safe"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ToDo"
+            android:label="@string/title_activity_to_do"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>

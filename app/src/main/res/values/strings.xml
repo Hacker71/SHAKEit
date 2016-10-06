@@ -34,4 +34,10 @@
     <string name="strobeLightTV">Strobe Light</string>
     <string name="sirenTV">Siren</string>
     <string name="radioTV">Radio</string>
+    <string name="title_activity_to_do">ToDo</string>
+    <string name="beforeTV">Before</string>
+    <string name="duringTV">During</string>
+    <string name="afterTV">After</string>
+    <string name="sendMsg">Send Message</string>
+    <string name="updateSafeInfoBtn">Update Informations</string>
 </resources>
