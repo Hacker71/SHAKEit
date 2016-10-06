@@ -8,10 +8,6 @@
         android:title="@string/about_us"
         android:icon="@drawable/more"/>
 
-    <item android:id="@+id/nav_menu_3"
-        android:title="@string/tools"
-        android:icon="@drawable/repairtools"/>
-
     <item android:id="@+id/nav_menu_4"
         android:title="@string/leave_a_feedback"
         android:icon="@drawable/feedback"/>
