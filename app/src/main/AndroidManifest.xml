@@ -35,6 +35,30 @@
         <activity
             android:name=".Preparation"
             android:label="@string/title_activity_preparation"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Tools"
+            android:label="@string/title_activity_tools"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LocateMe"
+            android:label="@string/title_activity_locate_me"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Emergency"
+            android:label="@string/title_activity_emergency"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Donate"
+            android:label="@string/title_activity_donate"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AmiReady"
+            android:label="@string/title_activity_ami_ready"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AmiSafe"
+            android:label="@string/title_activity_ami_safe"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

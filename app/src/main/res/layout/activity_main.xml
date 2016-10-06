@@ -103,7 +103,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="To Do"
+            android:text="@string/to_do"
             android:id="@+id/textView4"
             android:textColor="#c6c2c2"
             android:layout_below="@+id/button"

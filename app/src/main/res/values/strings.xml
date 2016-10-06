@@ -23,4 +23,11 @@
     <string name="donate">DONATE</string>
     <string name="tools">TOOLS</string>
     <string name="locate_me">LOCATE ME</string>
+    <string name="title_activity_tools">Tools</string>
+    <string name="title_activity_locate_me">LocateMe</string>
+    <string name="title_activity_emergency">Emergency</string>
+    <string name="title_activity_donate">Donate</string>
+    <string name="title_activity_ami_ready">AmiReady</string>
+    <string name="title_activity_ami_safe">AmiSafe</string>
+    <string name="to_do">To Do</string>
 </resources>
