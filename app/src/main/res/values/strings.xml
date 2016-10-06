@@ -4,17 +4,15 @@
     <string name="open">open</string>
     <string name="close">close</string>
     <string name="faq">FAQ</string>
-    <string name="about_us">aboutus</string>
-    <string name="tools">tools</string>
-    <string name="leave_a_feedback">leave_a_feedback</string>
+    <string name="about_us">ABOUT US</string>
+    <string name="leave_a_feedback">LEAVE A FEEDBACK</string>
     <string name="share">share</string>
-    <string name="settings">setings</string>
+    <string name="settings">SETTINGS</string>
     <string name="alerts">ALERTS</string>
     <string name="am_i_ready">AM I READY</string>
     <string name="preparation">PREPARATION</string>
     <string name="i_am_safe">I AM SAFE</string>
-    <string name="maps">MAPS</string>
-    <string name="emergeny">EMERGENY</string>
+    <string name="emergeny">EMERGENCY</string>
     <string name="location">LOCATION</string>
     <string name="a_du_eee_creation">A DU EEE CREATION</string>
     <string name="message">Message</string>
@@ -22,4 +20,7 @@
     <string name="location_is_here">LOCATION IS HERE</string>
     <string name="title_activity_preparation">Preparation</string>
     <string name="textview">Preparation screen</string>
+    <string name="donate">DONATE</string>
+    <string name="tools">TOOLS</string>
+    <string name="locate_me">LOCATE ME</string>
 </resources>
