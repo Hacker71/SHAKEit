@@ -22,7 +22,7 @@ import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.TextView;
 
-/* pushed by partho*/
+
 public class MainActivity extends AppCompatActivity {
     ActionBarDrawerToggle toggle;
     public Button button4;
@@ -52,15 +52,15 @@ public class MainActivity extends AppCompatActivity {
         final Animation animAlpha = AnimationUtils.loadAnimation(this, R.anim.anim_alpha);
 
 
-        Button preparationBtn = (Button) findViewById(R.id.button);
+        Button toDoBtn = (Button) findViewById(R.id.button);
         Button readyBtn = (Button) findViewById(R.id.button2);
-        Button btnAlpha2 = (Button) findViewById(R.id.button3);
-        Button btnAlpha3 = (Button) findViewById(R.id.button4);
-        Button btnAlpha4 = (Button) findViewById(R.id.button5);
-        Button btnAlpha5 = (Button) findViewById(R.id.button6);
-        Button btnAlpha6 = (Button) findViewById(R.id.button7);
+        Button donateBtn = (Button) findViewById(R.id.button3);
+        Button locateMeBtn = (Button) findViewById(R.id.button4);
+        Button emergencyBtn = (Button) findViewById(R.id.button5);
+        Button toolsBtn = (Button) findViewById(R.id.button6);
+        Button safeBtn = (Button) findViewById(R.id.button7);
 
-        preparationBtn.setOnClickListener(new View.OnClickListener() {
+        toDoBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 v.startAnimation(animAlpha);
@@ -75,42 +75,48 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 v.startAnimation(animAlpha);
+                startActivity(new Intent(getApplicationContext(),AmiReady.class));
             }
         });
 
-        btnAlpha2.setOnClickListener(new View.OnClickListener() {
+        donateBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 v.startAnimation(animAlpha);
+                startActivity(new Intent(getApplicationContext(),Donate.class));
             }
         });
 
-        btnAlpha3.setOnClickListener(new View.OnClickListener() {
+        locateMeBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 v.startAnimation(animAlpha);
+                startActivity(new Intent(getApplicationContext(),LocateMe.class));
             }
         });
 
-        btnAlpha4.setOnClickListener(new View.OnClickListener() {
+        emergencyBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 v.startAnimation(animAlpha);
+                startActivity(new Intent(getApplicationContext(),Emergency.class));
             }
         });
 
-        btnAlpha5.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                //v.startAnimation(animAlpha);
-
-            }
-        });
-
-        btnAlpha6.setOnClickListener(new View.OnClickListener() {
+        toolsBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 v.startAnimation(animAlpha);
+                startActivity(new Intent(getApplicationContext(),Tools.class));
+
+            }
+        });
+
+        safeBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                v.startAnimation(animAlpha);
+                startActivity(new Intent(getApplicationContext(),AmiSafe.class));
             }
         });
 
