@@ -12,7 +12,7 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.om3g4.shakeit.Donate"
     tools:showIn="@layout/activity_donate"
-    android:background="@drawable/bloodapp2">
+    android:background="#b7b6f1">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -42,7 +42,7 @@
                 <TextView
                     android:layout_width="200sp"
                     android:layout_height="wrap_content"
-                    android:text="Red Crescent Blood Bank"
+                    android:text="@string/red_crescent_blood_bank"
                     android:textSize="15sp"
                     android:textColor="@color/fontColor1"
                     tools:ignore="RtlHardcoded,UnknownId"
@@ -63,7 +63,7 @@
                 <TextView
                     android:layout_width="200sp"
                     android:layout_height="wrap_content"
-                    android:text="Quantum Blood Bank"
+                    android:text="@string/quantum_blood_bank"
                     android:textSize="15sp"
                     android:textColor="@color/fontColor1"
                     android:layout_marginTop="40sp"
@@ -85,7 +85,7 @@
                 <TextView
                     android:layout_width="200sp"
                     android:layout_height="wrap_content"
-                    android:text="Islami Bank Hospital Blood Bank"
+                    android:text="@string/islami_bank_hospital_blood_bank"
                     android:textSize="15sp"
                     android:layout_marginTop="80sp"
                     android:textColor="@color/fontColor1"
