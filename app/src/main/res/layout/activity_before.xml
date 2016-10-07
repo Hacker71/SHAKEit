@@ -30,7 +30,7 @@
                     android:text="hhhhhhhh jhf uh huh"
                     android:textColor="@color/fontColor1"
                     android:textSize="20sp"
-                    android:background="@color/bgColor1"
+                    android:background="@drawable/background2"
                     android:padding="10sp"
                     />
                 <TextView
@@ -41,7 +41,7 @@
                     android:textColor="@color/fontColor1"
                     android:textSize="20sp"
                     android:layout_marginTop="20sp"
-                    android:background="@color/bgColor2"
+                    android:background="@drawable/background1"
                     android:padding="10sp"
                     />
                 <TextView
@@ -52,7 +52,7 @@
                     android:textColor="@color/fontColor1"
                     android:textSize="20sp"
                     android:layout_marginTop="20sp"
-                    android:background="@color/bgColor3"
+                    android:background="@drawable/background3"
                     android:padding="10sp"
                     />
             <TextView
@@ -62,7 +62,7 @@
                 android:text="hhhhhhhh jhf uh huh"
                 android:textColor="@color/fontColor1"
                 android:textSize="20sp"
-                android:background="@color/bgColor1"
+                android:background="@drawable/background4"
                 android:padding="10sp"
                 />
             <TextView
@@ -73,7 +73,7 @@
                 android:textColor="@color/fontColor1"
                 android:textSize="20sp"
                 android:layout_marginTop="20sp"
-                android:background="@color/bgColor2"
+                android:background="@drawable/background1"
                 android:padding="10sp"
                 />
             <TextView
@@ -84,7 +84,7 @@
                 android:textColor="@color/fontColor1"
                 android:textSize="20sp"
                 android:layout_marginTop="20sp"
-                android:background="@color/bgColor3"
+                android:background="@drawable/background2"
                 android:padding="10sp"
                 />
             <TextView
@@ -95,7 +95,7 @@
                 android:textColor="@color/fontColor1"
                 android:textSize="20sp"
                 android:layout_marginTop="20sp"
-                android:background="@color/bgColor3"
+                android:background="@drawable/background3"
                 android:padding="10sp"
                 />
 
