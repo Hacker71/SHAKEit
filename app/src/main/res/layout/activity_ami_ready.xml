@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="com.example.om3g4.shakeit.AmiReady">
+    tools:context="com.example.om3g4.shakeit.AmiReady"
+    >
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
@@ -22,5 +23,12 @@
     </android.support.design.widget.AppBarLayout>
 
     <include layout="@layout/content_ami_ready" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="499dp"
+        android:id="@+id/quizListView"
+        android:layout_marginTop="100sp"
+        />
 
 </android.support.design.widget.CoordinatorLayout>

@@ -46,4 +46,13 @@ public class TextCollection {
 
 
 
+    String questions[]={"Which of this is an ideal safe place?",
+            "What is the first step after an earthquake?",
+            "What is the most important provision ?",
+            "How much water should we store?"};
+    String options1[]={"a. exterior wall ", " a. Run outside", "a. Makeup", " a. 2gallons per person"};
+    String options2[]={" b. Under a bridge", " b. Scream", "  b. Food", " b 3gallons per person"};
+    String options3[]={"  c. Under a table", " c.turn off gas lines", " c. Water", " c. 1gallon per person"};
+
+
 }
