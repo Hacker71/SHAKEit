@@ -31,4 +31,19 @@ public class TextCollection {
             "2. Stand in the doorway- in modern houses, the doorways are as strong as the rest of the house so they will not provide shelter and can not protect you from falling debris.\n" +
             "3. Follow procedures that are shared by any uncertified groups as this may prove fatal, eg- triangle of life.\n" +
             "AVOID PANICKING- Stay low and cover your head and neck with your hands and arms. Stay calm to think things through and prevent excess use of oxygen.";
+
+
+    String after1="You should expect aftershock, which follows an earthquake and causes additional damage. ";
+    String after2="1. CHECK- for fire, gas leaks and other hazards. Turn off gas, electricity and water. Use fire extinguisher in the event of small fires and do not light matches or lighters.";
+    String after3="2. CHECK FOR INJURIES- in yourself and people around and use first aid box if nescessary.";
+    String after4="3. TURN ON RADIO- to get updates on the situation.";
+    String after5="4.  USE phone only if nescessary such as informing your emergency conact. AVOID the roads to keep them traffic jam free for emergency services to have ease in travelling. KEEP AWAY from damage buildings.";
+    String after6="If you get trapped, waiting for help is the only way.";
+    String after7="5. Cupboards and closets containing items may fall as they are fragile after an earthquake. If required, open them CAREFULLY and check for CRACKS and damage to roof and foundation of your home.";
+    String after8="6. DO NOT MOVE about or kick up dust as you may inhale it. Try to keep your mouth and nostril COVERED.";
+    String after9="7. Use devices like strobe lights and sirens or you could even tap on walls and pipes to let rescuse teams KNOW of your presence. Avoid screaming if possible as it will make your throat RAW and INHALE dust.";
+    String after10="8. AVOID TAP WATER for drinking.";
+
+
+
 }
