@@ -35,41 +35,42 @@
                 />
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:layout_marginTop="20sp"
+                >
                 <TextView
                     android:layout_width="200sp"
                     android:layout_height="wrap_content"
-                    android:text="@string/quizTitle"
-                    android:layout_gravity="center|right"
-                    android:gravity="center|right"
-                    android:textSize="20sp"
-                    android:paddingTop="10sp"
-                    />
+                    android:text="Red Crescent Blood Bank"
+                    android:textSize="15sp"
+                    android:textColor="@color/fontColor1"
+                    tools:ignore="RtlHardcoded,UnknownId"
+                    android:layout_alignBottom="@+id/button10" />
 
                 <Button
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="40sp"
+                    android:layout_height="30sp"
                     android:gravity="right"
                     android:layout_marginRight="31dp"
                     android:layout_marginEnd="31dp"
                     android:layout_alignParentTop="true"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    tools:ignore="RelativeOverlap,RtlHardcoded" />
+                    tools:ignore="RelativeOverlap,RtlHardcoded"
+                    android:background="@drawable/call"
+                    />
                 <TextView
                     android:layout_width="200sp"
                     android:layout_height="wrap_content"
-                    android:text="@string/quizTitle"
-                    android:layout_gravity="center|right"
-                    android:gravity="center|right"
-                    android:textSize="20sp"
+                    android:text="Quantum Blood Bank"
+                    android:textSize="15sp"
+                    android:textColor="@color/fontColor1"
                     android:layout_marginTop="40sp"
-                    android:paddingTop="10sp"
-                    />
+                    tools:ignore="RtlHardcoded" />
 
                 <Button
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="40sp"
+                    android:layout_height="30sp"
                     android:gravity="right"
                     android:layout_marginRight="31dp"
                     android:layout_marginEnd="31dp"
@@ -77,21 +78,21 @@
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
                     android:layout_marginTop="40sp"
-                    tools:ignore="RelativeOverlap,RtlHardcoded" />
+                    tools:ignore="RelativeOverlap,RtlHardcoded"
+                    android:background="@drawable/call"
+                    />
                 <TextView
                     android:layout_width="200sp"
                     android:layout_height="wrap_content"
-                    android:text="@string/quizTitle"
-                    android:layout_gravity="center|right"
-                    android:gravity="center|right"
-                    android:textSize="20sp"
+                    android:text="Islami Bank Hospital Blood Bank"
+                    android:textSize="15sp"
                     android:layout_marginTop="80sp"
-                    android:paddingTop="10sp"
-                    />
+                    android:textColor="@color/fontColor1"
+                    tools:ignore="RtlHardcoded" />
 
                 <Button
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="40sp"
+                    android:layout_height="30sp"
                     android:gravity="right"
                     android:layout_marginRight="31dp"
                     android:layout_marginEnd="31dp"
@@ -99,7 +100,9 @@
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
                     android:layout_marginTop="80sp"
-                    tools:ignore="RelativeOverlap,RtlHardcoded" />
+                    tools:ignore="RelativeOverlap,RtlHardcoded"
+                    android:background="@drawable/call"
+                    />
             </RelativeLayout>
         </LinearLayout>
     </ScrollView>
