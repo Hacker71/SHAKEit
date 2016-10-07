@@ -36,7 +36,7 @@ public class AmiSafe extends AppCompatActivity {
             databaseHelper=new DatabaseHelper(getApplicationContext());
             Log.d("msg","databaseHelper()");
         }catch (Exception e){
-            Log.d("error",e.toString());
+            Log.d("error",e.toString()); 
         }
 
         String safeInfo[]=new String[4];
