@@ -55,4 +55,8 @@ public class TextCollection {
     String options3[]={"  c. Under a table", " c.turn off gas lines", " c. Water", " c. 1gallon per person"};
 
 
+    String ambulanceNumbers[]={};
+    String fireServiceNumbers[]={};
+    String policeNumbers[]={};
+
 }

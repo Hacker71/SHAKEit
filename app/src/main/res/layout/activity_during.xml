@@ -8,7 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.om3g4.shakeit.during">
+    tools:context="com.example.om3g4.shakeit.During">
 
     <ScrollView
         android:layout_width="match_parent"
