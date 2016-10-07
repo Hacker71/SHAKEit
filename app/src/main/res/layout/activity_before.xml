@@ -22,9 +22,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             tools:ignore="UselessLeaf">
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -32,8 +30,75 @@
                     android:text="hhhhhhhh jhf uh huh"
                     android:textColor="@color/fontColor1"
                     android:textSize="20sp"
+                    android:background="@color/bgColor1"
+                    android:padding="10sp"
                     />
-            </RelativeLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/before2TV"
+                    android:text="hhhhhhhh jhf uh huh"
+                    android:textColor="@color/fontColor1"
+                    android:textSize="20sp"
+                    android:layout_marginTop="20sp"
+                    android:background="@color/bgColor2"
+                    android:padding="10sp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/before3TV"
+                    android:text="hhhhhhhh jhf uh huh"
+                    android:textColor="@color/fontColor1"
+                    android:textSize="20sp"
+                    android:layout_marginTop="20sp"
+                    android:background="@color/bgColor3"
+                    android:padding="10sp"
+                    />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/before4TV"
+                android:text="hhhhhhhh jhf uh huh"
+                android:textColor="@color/fontColor1"
+                android:textSize="20sp"
+                android:background="@color/bgColor1"
+                android:padding="10sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/before5TV"
+                android:text="hhhhhhhh jhf uh huh"
+                android:textColor="@color/fontColor1"
+                android:textSize="20sp"
+                android:layout_marginTop="20sp"
+                android:background="@color/bgColor2"
+                android:padding="10sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/before6TV"
+                android:text="hhhhhhhh jhf uh huh"
+                android:textColor="@color/fontColor1"
+                android:textSize="20sp"
+                android:layout_marginTop="20sp"
+                android:background="@color/bgColor3"
+                android:padding="10sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/before7TV"
+                android:text="hhhhhhhh jhf uh huh"
+                android:textColor="@color/fontColor1"
+                android:textSize="20sp"
+                android:layout_marginTop="20sp"
+                android:background="@color/bgColor3"
+                android:padding="10sp"
+                />
+
         </LinearLayout>
     </ScrollView>
 </RelativeLayout>
