@@ -40,4 +40,5 @@
     <string name="afterTV">After</string>
     <string name="sendMsg">Send Message</string>
     <string name="updateSafeInfoBtn">Update Informations</string>
+    <string name="textview2">TextView</string>
 </resources>
