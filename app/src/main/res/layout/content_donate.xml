@@ -11,7 +11,8 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.om3g4.shakeit.Donate"
-    tools:showIn="@layout/activity_donate">
+    tools:showIn="@layout/activity_donate"
+    android:background="@drawable/bloodapp2">
 
     <ScrollView
         android:layout_width="match_parent"
