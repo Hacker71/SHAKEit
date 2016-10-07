@@ -13,4 +13,95 @@
     tools:context="com.example.om3g4.shakeit.Donate"
     tools:showIn="@layout/activity_donate">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:ignore="ScrollViewSize,UselessLeaf">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/bloodBanks"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textColor="@color/fontColor3"
+                />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="200sp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/quizTitle"
+                    android:layout_gravity="center|right"
+                    android:gravity="center|right"
+                    android:textSize="20sp"
+                    android:paddingTop="10sp"
+                    />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:layout_marginRight="31dp"
+                    android:layout_marginEnd="31dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    tools:ignore="RelativeOverlap,RtlHardcoded" />
+                <TextView
+                    android:layout_width="200sp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/quizTitle"
+                    android:layout_gravity="center|right"
+                    android:gravity="center|right"
+                    android:textSize="20sp"
+                    android:layout_marginTop="40sp"
+                    android:paddingTop="10sp"
+                    />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:layout_marginRight="31dp"
+                    android:layout_marginEnd="31dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="40sp"
+                    tools:ignore="RelativeOverlap,RtlHardcoded" />
+                <TextView
+                    android:layout_width="200sp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/quizTitle"
+                    android:layout_gravity="center|right"
+                    android:gravity="center|right"
+                    android:textSize="20sp"
+                    android:layout_marginTop="80sp"
+                    android:paddingTop="10sp"
+                    />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:layout_marginRight="31dp"
+                    android:layout_marginEnd="31dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="80sp"
+                    tools:ignore="RelativeOverlap,RtlHardcoded" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
 </RelativeLayout>

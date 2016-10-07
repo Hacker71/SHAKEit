@@ -41,4 +41,5 @@
     <string name="sendMsg">Send Message</string>
     <string name="updateSafeInfoBtn">Update Informations</string>
     <string name="quizTitle">You have to know</string>
+    <string name="bloodBanks">Number of blood banks</string>
 </resources>
