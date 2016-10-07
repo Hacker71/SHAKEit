@@ -8,6 +8,108 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.om3g4.shakeit.During">
+    tools:context="com.example.om3g4.shakeit.during">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:ignore="UselessLeaf">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/during1TV"
+                android:text="hhhhhhhh jhf uh huh"
+                android:textColor="@color/fontColor1"
+                android:textSize="20sp"
+                android:background="@drawable/background2"
+                android:padding="10sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/during2TV"
+                android:text="hhhhhhhh jhf uh huh"
+                android:textColor="@color/fontColor1"
+                android:textSize="20sp"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/background1"
+                android:padding="10sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/during3TV"
+                android:text="hhhhhhhh jhf uh huh"
+                android:textColor="@color/fontColor1"
+                android:textSize="20sp"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/background3"
+                android:padding="10sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/during4TV"
+                android:text="hhhhhhhh jhf uh huh"
+                android:textColor="@color/fontColor1"
+                android:textSize="20sp"
+                android:background="@drawable/background4"
+                android:padding="10sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/during5TV"
+                android:text="hhhhhhhh jhf uh huh"
+                android:textColor="@color/fontColor1"
+                android:textSize="20sp"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/background1"
+                android:padding="10sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/during6TV"
+                android:text="hhhhhhhh jhf uh huh"
+                android:textColor="@color/fontColor1"
+                android:textSize="20sp"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/background2"
+                android:padding="10sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/during7TV"
+                android:text="hhhhhhhh jhf uh huh"
+                android:textColor="@color/fontColor1"
+                android:textSize="20sp"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/background3"
+                android:padding="10sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/during8TV"
+                android:text="hhhhhhhh jhf uh huh"
+                android:textColor="@color/fontColor1"
+                android:textSize="20sp"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/background4"
+                android:padding="10sp"
+                />
+
+        </LinearLayout>
+    </ScrollView>
 </RelativeLayout>
