@@ -7,8 +7,7 @@
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.om3g4.shakeit.Tools"
-    tools:showIn="@layout/activity_tools"
-    android:background="#bce8f1">
+    tools:showIn="@layout/activity_tools">
 
 
 

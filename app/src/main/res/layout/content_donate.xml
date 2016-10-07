@@ -58,8 +58,9 @@
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
                     tools:ignore="RelativeOverlap,RtlHardcoded"
-                    android:background="@drawable/call"
-                    />
+                    android:background="@drawable/call" />
+
+
                 <TextView
                     android:layout_width="200sp"
                     android:layout_height="wrap_content"
