@@ -9,7 +9,7 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.SEND_SMS"></uses-permission>
+    <uses-permission android:name="android.permission.SEND_SMS" />
 
     <application
         android:allowBackup="true"
@@ -61,6 +61,9 @@
             android:name=".ToDo"
             android:label="@string/title_activity_to_do"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Before" />
+        <activity android:name=".During" />
+        <activity android:name=".After"></activity>
     </application>
 
 </manifest>

@@ -1,5 +1,6 @@
 package com.example.om3g4.shakeit;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -18,15 +19,25 @@ public class ToDo extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        final TextView before=(TextView)findViewById(R.id.textView10);
-        before.setOnClickListener(new View.OnClickListener() {
+        final TextView beforeTV=(TextView)findViewById(R.id.textView10);
+        final TextView duringTV=(TextView)findViewById(R.id.textView11);
+        final TextView afterTV=(TextView)findViewById(R.id.textView12);
+        beforeTV.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                /*
-                ViewGroup.LayoutParams params = before.getLayoutParams();
-                params.height = 280;
-                before.setLayoutParams(params);
-                */
+                startActivity(new Intent(getApplicationContext(), Before.class));
+            }
+        });
+        duringTV.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(), During.class));
+            }
+        });
+        afterTV.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(), After.class));
             }
         });
     }
