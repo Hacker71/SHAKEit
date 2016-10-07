@@ -42,7 +42,7 @@
                 <TextView
                     android:layout_width="200sp"
                     android:layout_height="wrap_content"
-                    android:text="Red Crescent Blood Bank (9116563)"
+                    android:text="Red Crescent Blood Bank"
                     android:textSize="15sp"
                     android:textColor="@color/fontColor1"
                     tools:ignore="RtlHardcoded,UnknownId"
@@ -63,10 +63,10 @@
                 <TextView
                     android:layout_width="200sp"
                     android:layout_height="wrap_content"
-                    android:text="Quantum Blood Bank (+88 01714010869)"
+                    android:text="Quantum Blood Bank"
                     android:textSize="15sp"
                     android:textColor="@color/fontColor1"
-                    android:layout_marginTop="60sp"
+                    android:layout_marginTop="40sp"
                     tools:ignore="RtlHardcoded" />
 
                 <Button
@@ -78,16 +78,16 @@
                     android:layout_alignParentTop="true"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    android:layout_marginTop="60sp"
+                    android:layout_marginTop="40sp"
                     tools:ignore="RelativeOverlap,RtlHardcoded"
                     android:background="@drawable/call"
                     />
                 <TextView
                     android:layout_width="200sp"
                     android:layout_height="wrap_content"
-                    android:text="Islami Bank Hospital Blood Bank (8321495)"
+                    android:text="Islami Bank Hospital Blood Bank"
                     android:textSize="15sp"
-                    android:layout_marginTop="120sp"
+                    android:layout_marginTop="80sp"
                     android:textColor="@color/fontColor1"
                     tools:ignore="RtlHardcoded" />
 
@@ -100,7 +100,7 @@
                     android:layout_alignParentTop="true"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    android:layout_marginTop="120sp"
+                    android:layout_marginTop="80sp"
                     tools:ignore="RelativeOverlap,RtlHardcoded"
                     android:background="@drawable/call"
                     />
