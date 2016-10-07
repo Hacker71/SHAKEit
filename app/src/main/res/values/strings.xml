@@ -49,4 +49,5 @@
     <string name="strobe_light">STROBE LIGHT</string>
     <string name="siren">SIREN</string>
     <string name="radio">RADIO</string>
+    <string name="what_to_do">WHAT TO DO</string>
 </resources>
