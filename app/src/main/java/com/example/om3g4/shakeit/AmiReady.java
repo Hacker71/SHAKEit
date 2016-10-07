@@ -55,41 +55,4 @@ public class AmiReady extends AppCompatActivity {
     }
 
 
-
-
-
-
-
-
-
-
-
-    private void createRadioButton(LinearLayout linearLayout) {
-        final RadioButton[] rb = new RadioButton[5];
-        RadioGroup rg = new RadioGroup(this); //create the RadioGroup
-        rg.setOrientation(RadioGroup.VERTICAL);//or RadioGroup.VERTICAL
-
-        int q=50;
-        List<TextView> wordList = new ArrayList<TextView>(q);
-        List<TextView> answerList = new ArrayList<TextView>(q*3);
-
-        for(int i = 0; i < q; i++){
-            TextView answerText = new TextView(getApplicationContext());
-            TextView qText = new TextView(getApplicationContext());
-
-            answerText.setText("ans "+(i+1));
-            qText.setText("question "+(i+1));
-
-
-
-            linearLayout.addView(qText);
-            linearLayout.addView(answerText);
-
-            wordList.add(qText);
-            answerList.add(answerText);
-        }
-
-    }
-
-
 }
