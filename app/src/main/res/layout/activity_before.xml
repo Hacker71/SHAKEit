@@ -10,4 +10,30 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.om3g4.shakeit.Before">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:ignore="UselessLeaf">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/before1TV"
+                    android:text="hhhhhhhh jhf uh huh"
+                    android:textColor="@color/fontColor1"
+                    android:textSize="20sp"
+                    />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
 </RelativeLayout>
