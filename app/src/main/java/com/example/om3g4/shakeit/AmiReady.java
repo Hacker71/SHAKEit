@@ -34,7 +34,7 @@ public class AmiReady extends AppCompatActivity {
         RadioGroup rg = new RadioGroup(this); //create the RadioGroup
         rg.setOrientation(RadioGroup.VERTICAL);//or RadioGroup.VERTICAL
 
-        int q=5;
+        int q=50;
         List<TextView> wordList = new ArrayList<TextView>(q);
         List<TextView> answerList = new ArrayList<TextView>(q*3);
 
@@ -53,27 +53,6 @@ public class AmiReady extends AppCompatActivity {
             wordList.add(qText);
             answerList.add(answerText);
         }
-
-
-        /*
-        for (int x=0;x<5;x++){
-            questionTV.setText("question "+(x+1));
-            if(questionTV.getParent()!=null){
-                ((ViewGroup)questionTV.getParent()).removeView(questionTV);
-            }
-            linearLayout.addView(questionTV);
-            for(int i=0; i<3; i++){
-                rb[i]  = new RadioButton(this);
-                rb[i].setText(" " + "option"+(i+1));
-                rb[i].setId(i + 100);
-                rg.addView(rb[i]);
-            }
-            if(rg.getParent()!=null){
-                ((ViewGroup)rg.getParent()).removeView(rg);
-            }
-            linearLayout.addView(rg);//you add the whole RadioGroup to the layout
-        }
-        */
 
     }
 

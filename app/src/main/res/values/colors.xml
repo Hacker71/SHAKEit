@@ -8,4 +8,8 @@
     <color name="bgColor2">#c6c778</color>
     <color name="bgColor3">#639fa7</color>
 
+    <color name="fontColor1">#000000</color>
+    <color name="fontColor2">#c6c778</color>
+    <color name="fontColor3">#639fa7</color>
+
 </resources>

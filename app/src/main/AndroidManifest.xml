@@ -52,7 +52,8 @@
         <activity
             android:name=".AmiReady"
             android:label="@string/title_activity_ami_ready"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar"
+            android:exported="true" />
         <activity
             android:name=".AmiSafe"
             android:label="@string/title_activity_ami_safe"
