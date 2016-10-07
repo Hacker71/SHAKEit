@@ -26,7 +26,7 @@ public class Emergency extends AppCompatActivity {
         ambulanceTV.setText(Html.fromHtml(x));
         x="<b><u>Fire Service</u></b>"+"<br>"+"01730-002216"+"<br>"+"01730-002218"+"<br>"+"58617171"+"<br>"+"01730-002218"+"<br>"+"01730-002219"+"<br>"+"01730-002225";;
         fireServiceTV.setText(Html.fromHtml(x));
-        x="<b><u>Police Station</u></b>"+"<br>"+"01774983692"+"<br>"+"88028010420"+"<br>"+"88028618262"+"<br>"+"88028618007"+"<br>"+"88029666497"+"<br>"+"88071711625173";;
+        x="<b><u>Police Station</u></b>"+"<br>"+"100 9619999"+"<br>"+"9619999"+"<br>"+"961999";;
         policeTV.setText(Html.fromHtml(x));
     }
 
