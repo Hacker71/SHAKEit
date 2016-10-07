@@ -41,7 +41,7 @@
     <string name="sendMsg">Send Message</string>
     <string name="updateSafeInfoBtn">Update Informations</string>
     <string name="quizTitle">You have to know</string>
-    <string name="bloodBanks">Number of blood banks</string>
+    <string name="bloodBanks">Phone number of blood banks</string>
     <string name="red_crescent_blood_bank">Red Crescent Blood Bank</string>
     <string name="quantum_blood_bank">Quantum Blood Bank</string>
     <string name="islami_bank_hospital_blood_bank">Islami Bank Hospital Blood Bank</string>

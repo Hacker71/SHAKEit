@@ -104,6 +104,51 @@
                     tools:ignore="RelativeOverlap,RtlHardcoded"
                     android:background="@drawable/call"
                     />
+
+                <TextView
+                    android:layout_width="200sp"
+                    android:layout_height="wrap_content"
+                    android:text="Sir Salimullah College Blood Bank"
+                    android:textSize="15sp"
+                    android:layout_marginTop="120sp"
+                    android:textColor="@color/fontColor1"
+                    tools:ignore="RtlHardcoded" />
+
+                <Button
+                    android:layout_width="40sp"
+                    android:layout_height="30sp"
+                    android:gravity="right"
+                    android:layout_marginRight="31dp"
+                    android:layout_marginEnd="31dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="120sp"
+                    tools:ignore="RelativeOverlap,RtlHardcoded"
+                    android:background="@drawable/call"
+                    />
+                <TextView
+                    android:layout_width="200sp"
+                    android:layout_height="wrap_content"
+                    android:text="Shandhani, Dhaka Medical College Branch"
+                    android:textSize="15sp"
+                    android:layout_marginTop="160sp"
+                    android:textColor="@color/fontColor1"
+                    tools:ignore="RtlHardcoded" />
+
+                <Button
+                    android:layout_width="40sp"
+                    android:layout_height="30sp"
+                    android:gravity="right"
+                    android:layout_marginRight="31dp"
+                    android:layout_marginEnd="31dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="160sp"
+                    tools:ignore="RelativeOverlap,RtlHardcoded"
+                    android:background="@drawable/call"
+                    />
             </RelativeLayout>
         </LinearLayout>
     </ScrollView>
