@@ -45,4 +45,8 @@
     <string name="red_crescent_blood_bank">Red Crescent Blood Bank</string>
     <string name="quantum_blood_bank">Quantum Blood Bank</string>
     <string name="islami_bank_hospital_blood_bank">Islami Bank Hospital Blood Bank</string>
+    <string name="flash">FLASH</string>
+    <string name="strobe_light">STROBE LIGHT</string>
+    <string name="siren">SIREN</string>
+    <string name="radio">RADIO</string>
 </resources>

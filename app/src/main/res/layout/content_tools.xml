@@ -10,12 +10,7 @@
     tools:showIn="@layout/activity_tools"
     android:background="@drawable/toolswallpaper">
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        tools:ignore="UselessParent">
+
 
         <Button
             android:layout_width="60dp"
@@ -63,7 +58,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="FLASH "
+            android:text="@string/flash"
             android:id="@+id/textView16"
             android:layout_below="@+id/flashLightBtn"
             android:layout_alignRight="@+id/flashLightBtn"
@@ -74,7 +69,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="STROBE LIGHT"
+            android:text="@string/strobe_light"
             android:id="@+id/textView17"
             android:layout_alignTop="@+id/textView16"
             android:layout_alignRight="@+id/strobeLightBtn"
@@ -84,7 +79,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="SIREN"
+            android:text="@string/siren"
             android:id="@+id/textView18"
             android:layout_below="@+id/sirenBtn"
             android:layout_alignLeft="@+id/textView16"
@@ -95,11 +90,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="RADIO"
+            android:text="@string/radio"
             android:id="@+id/textView19"
             android:layout_alignTop="@+id/textView18"
             android:layout_alignLeft="@+id/radioBtn"
             android:layout_alignStart="@+id/radioBtn" />
 
-    </RelativeLayout>
+
 </RelativeLayout>
