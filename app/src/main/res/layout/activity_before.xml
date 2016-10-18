@@ -21,7 +21,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            tools:ignore="UselessLeaf">
+            tools:ignore="UselessLeaf"
+            android:weightSum="1">
 
                 <TextView
                     android:layout_width="match_parent"
@@ -102,7 +103,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:src="@drawable/before"
-                />
+                android:layout_weight="0.62" />
         </LinearLayout>
     </ScrollView>
 </RelativeLayout>
