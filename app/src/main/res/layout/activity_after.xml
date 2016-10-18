@@ -14,12 +14,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:ignore="UselessParent"
-        android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginRight="166dp"
-        android:layout_marginEnd="166dp"
-        android:layout_marginBottom="366dp">
+        android:layout_alignParentEnd="true">
 
         <LinearLayout
             android:layout_width="match_parent"
