@@ -35,7 +35,7 @@
     <string name="sirenTV">Siren</string>
     <string name="radioTV">Radio</string>
     <string name="title_activity_to_do">ToDo</string>
-    <string name="beforeTV">Before</string>
+    <string name="beforeTV">BEFORE</string>
     <string name="duringTV">During</string>
     <string name="afterTV">After</string>
     <string name="sendMsg">Send Message</string>
@@ -50,4 +50,15 @@
     <string name="siren">SIREN</string>
     <string name="radio">RADIO</string>
     <string name="what_to_do">WHAT TO DO</string>
+    <string name="hhhhhhhh_jhf_uh_huh">hhhhhhhh jhf uh huh</string>
+    <string name="hhhhhhhh_jfghf_uh_huh">hhhhhhhh jfghf uh huh</string>
+    <string name="hhhhhhhh_jhf_uh_khkojhuh">hhhhhhhh jhf uh khkojhuh</string>
+    <string name="hhhhhhhh_jhf_udfdfgh_huh">hhhhhhhh jhf udfdfgh huh</string>
+    <string name="hhhhhhhh_jhf_uhkhuh">hhhhhhhh jhf uhkhuh</string>
+    <string name="hhhhhhhh_jhf_uh_jklhhuh">hhhhhhhh jhf uh jklhhuh</string>
+    <string name="hhhhhhhh_jhf_uh_hytrfyhuh">hhhhhhhh jhf uh hytrfyhuh</string>
+    <string name="hhhhhhhh_jhf_udsfsdfh_huh">hhhhhhhh jhf uh huh</string>
+    <string name="hhhhhhsdshh_jhf_uh_huh">hhhhhhhh jhf uh huh</string>
+    <string name="hhhhhhhh_jhf_uhsds_huh">hhhhhhhh jhf uh huh</string>
+    <string name="hhhhhhhh_jhf_suh_huh">hhhhhhhh jhf uh huh</string>
 </resources>
