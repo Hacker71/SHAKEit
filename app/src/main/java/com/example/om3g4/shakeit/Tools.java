@@ -51,7 +51,7 @@ public class Tools extends AppCompatActivity {
         strobeLightBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                
             }
         });
         sirenBtn.setOnClickListener(new View.OnClickListener() {
