@@ -59,6 +59,7 @@
                     android:layout_alignParentEnd="true"
                     tools:ignore="RelativeOverlap,RtlHardcoded"
                     android:background="@drawable/call"
+                    android:id="@+id/redCrescent"
                     />
                 <TextView
                     android:layout_width="200sp"
@@ -81,6 +82,7 @@
                     android:layout_marginTop="40sp"
                     tools:ignore="RelativeOverlap,RtlHardcoded"
                     android:background="@drawable/call"
+                    android:id="@+id/quantum"
                     />
                 <TextView
                     android:layout_width="200sp"
@@ -103,6 +105,7 @@
                     android:layout_marginTop="80sp"
                     tools:ignore="RelativeOverlap,RtlHardcoded"
                     android:background="@drawable/call"
+                    android:id="@+id/islami"
                     />
 
                 <TextView
@@ -126,6 +129,7 @@
                     android:layout_marginTop="120sp"
                     tools:ignore="RelativeOverlap,RtlHardcoded"
                     android:background="@drawable/call"
+                    android:id="@+id/salimullah"
                     />
                 <TextView
                     android:layout_width="200sp"
@@ -148,6 +152,7 @@
                     android:layout_marginTop="160sp"
                     tools:ignore="RelativeOverlap,RtlHardcoded"
                     android:background="@drawable/call"
+                    android:id="@+id/sandhani"
                     />
             </RelativeLayout>
         </LinearLayout>
