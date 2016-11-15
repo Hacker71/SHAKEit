@@ -48,7 +48,7 @@ public class Tools extends AppCompatActivity {
                     camera.setParameters(p);
                     camera.startPreview();
                 }catch (Exception e){
-                    Toast.makeText(getApplicationContext(), e.toString(), LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), "Error", LENGTH_SHORT).show();
                 }
             }
         });
@@ -102,19 +102,20 @@ public class Tools extends AppCompatActivity {
     }
 
     void playTone(String tone){
+        /*
         try {
             AssetFileDescriptor afd=getAssets().openFd(tone);
             MediaPlayer player=new MediaPlayer();
             player.setDataSource(afd.getFileDescriptor(), afd.getStartOffset(), afd.getLength());
             player.prepare();
-            if(!player.isPlaying()){
-                player.start();
-            }else{
-                player.stop();
-            }
+            player.start();
         } catch (IOException e) {
             Toast.makeText(getApplicationContext(), e.toString(), LENGTH_SHORT).show();
         }
+        */
+        MediaPlayer mPlayer;
+        mPlayer= MediaPlayer.create(this, R.raw.siren);
+        mPlayer.start();
     }
 
 }
