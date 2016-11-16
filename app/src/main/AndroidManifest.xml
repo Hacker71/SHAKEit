@@ -72,6 +72,7 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Before" />
         <activity android:name=".During" />
+        <activity android:name=".After" />
     </application>
 
 </manifest>
